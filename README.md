@@ -22,10 +22,11 @@ String path = "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaig
 
 5. For the test outputs using sample_file_1.csv and sample_file_2.csv, you can find it in the ./Week8 folder named "comparisondata.csv"
 
-6. Also do remember to change the file name of your output here!
+6. Also do remember to change the file name of your output in the compareCSV method here!
 
 '''
-
-FileWriter fileWriter = new FileWriter(path+"**OUTPUT FILE NAME WITH EXTENSION**");
+try{
+            FileWriter fileWriter = new FileWriter(path+"**OUTPUT FILE NAME WITH EXTENSION**");
+            for(int i=0; i<file3Content_size; i++){
 
 '''
