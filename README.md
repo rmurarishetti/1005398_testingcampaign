@@ -24,9 +24,10 @@ String path = "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaig
 
 6. Also do remember to change the file name of your output in the compareCSV method here!
 
-'''
+```
 try{
             FileWriter fileWriter = new FileWriter(path+"**OUTPUT FILE NAME WITH EXTENSION**");
             for(int i=0; i<file3Content_size; i++){
 
-'''
+            };
+```
