@@ -41,3 +41,10 @@ try{
 |   no. of files 	|   <2 or >2 ".csv" files or non ".csv" files in the input	|   2 ".csv" files	|
 |   path	|   non-existent path or directory (ex. "Desktop#files#week9")	|   path that is existent  (ex. "Desktop/files/week9")         |
 |   rows in the files 	|   if no. of rows in file1.csv != file2.csv	            |   no. of rows in file1.csv = file2.csv	|
+| column headers        |  column headers != ["Customer ID", "Account No.", "Currency", "Type", "Balance"] | column headers are["Customer ID", "Account No.", "Currency", "Type", "Balance"] |
+
+#### Boundary Values
+
+##### CSV Files
+
+##### Path
