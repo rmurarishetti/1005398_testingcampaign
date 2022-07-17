@@ -45,6 +45,9 @@ try{
 
 #### Boundary Values
 
-##### CSV Files
-
 ##### Path
+1. Valid - "./files/week9" (relative path, middle value)
+2. Valid - "/Users/rmurarishetti/Downloads/ISTD/Term5/ESC/CohortExercises/Week9/Readme.md" (absolute path, boundary)
+3. Invalid - "$/\Desktop##file^^^Week9" (middle value)
+4. Invalid - "./1005398_testingcampaign/\readme.md" (only one extra "\", boundary value)
+
