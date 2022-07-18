@@ -56,5 +56,17 @@ try{
 |   | Invalid   | Valid  |
 |---|---|---|
 | Middle Value  |   <img width="1371" alt="Screenshot 2022-07-18 at 3 16 50 PM" src="https://user-images.githubusercontent.com/64725000/179463331-c63fb077-4da0-4a53-aeff-7529245251fc.png"> |  <img width="328" alt="Screenshot 2022-07-18 at 3 08 12 PM" src="https://user-images.githubusercontent.com/64725000/179463058-1baa3226-0a78-4c69-9ddf-7f4049b4056c.png"> |
-| Boundary Value  |  <img width="330" alt="Screenshot 2022-07-18 at 3 08 23 PM" src="https://user-images.githubusercontent.com/64725000/179463401-1847cdee-d3e4-47ef-a48f-1fa52234df15.png"> | -  |
-| Reason  |   |   |
+| Boundary Value  |  <img width="330" alt="Screenshot 2022-07-18 at 3 08 23 PM" src="https://user-images.githubusercontent.com/64725000/179463401-1847cdee-d3e4-47ef-a48f-1fa52234df15.png"> | <img width="328" alt="Screenshot 2022-07-18 at 3 08 12 PM" src="https://user-images.githubusercontent.com/64725000/179463058-1baa3226-0a78-4c69-9ddf-7f4049b4056c.png"> |
+| Reason  | In the invalid middle value, there's vastly different column headers | In the boundary valid and invalid values, the rows differ by just 1 unit   |
+
+|   | Invalid  | Valid  |
+|---|---|---|
+|  Middle Value | -  |  <img width="324" alt="Screenshot 2022-07-18 at 3 13 58 PM" src="https://user-images.githubusercontent.com/64725000/179464133-b4e94db6-1d98-4249-938f-9d563a577161.png">|   
+| Boundary Value  |  <img width="413" alt="Screenshot 2022-07-18 at 3 13 50 PM" src="https://user-images.githubusercontent.com/64725000/179464198-d970c9ee-8df1-4992-928e-6b67925e7f5c.png">|  - |
+| Reasons  | The boundary invalid value is just having one extra column as compared to the middle valid value (i.e different column header)  |  The column headers are as specified in the equivalence class partitioning |
+
+|   |  Invalid |  Valid |
+|---|---|---|
+| Middle Value  |  ".pdf" file extension | ".csv" file extension  |
+| Boundary Value  | ".xlsx" file extension |  ".csv" file extension |
+|  Reason | The .pdf file is vastly different from .csv type file and hence is a middle value  |  The .csv file can be extracted from a .xlsx file and parsed through, hence is a boundary invalid value |
