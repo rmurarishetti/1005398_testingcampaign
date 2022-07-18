@@ -51,3 +51,12 @@ try{
 3. Invalid - "$/\Desktop##file^^^Week9" (middle value)
 4. Invalid - "./1005398_testingcampaign/\readme.md" (only one extra "\", boundary value)
 
+##### CSV
+
+|   | Invalid   | Valid  |
+|---|---|---|
+| Middle Value  |  <img width="1371" alt="Screenshot 2022-07-18 at 3 16 50 PM" src="https://user-images.githubusercontent.com/64725000/179463163-6770635e-4acd-48aa-8d98-e3d08916df27.png">
+ |  <img width="328" alt="Screenshot 2022-07-18 at 3 08 12 PM" src="https://user-images.githubusercontent.com/64725000/179463058-1baa3226-0a78-4c69-9ddf-7f4049b4056c.png"> |
+| Middle Value  |   |  <img width="328" alt="Screenshot 2022-07-18 at 3 08 12 PM" src="https://user-images.githubusercontent.com/64725000/179463058-1baa3226-0a78-4c69-9ddf-7f4049b4056c.png"> |
+| Boundary Value  |   |   |
+| Reason  |   |   |
