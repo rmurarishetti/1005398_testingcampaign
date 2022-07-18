@@ -55,8 +55,6 @@ try{
 
 |   | Invalid   | Valid  |
 |---|---|---|
-| Middle Value  |   <img width="1371" alt="Screenshot 2022-07-18 at 3 16 50 PM" src="https://user-images.githubusercontent.com/64725000/179463331-c63fb077-4da0-4a53-aeff-7529245251fc.png">
-|  <img width="328" alt="Screenshot 2022-07-18 at 3 08 12 PM" src="https://user-images.githubusercontent.com/64725000/179463058-1baa3226-0a78-4c69-9ddf-7f4049b4056c.png"> |
-| Boundary Value  |  <img width="330" alt="Screenshot 2022-07-18 at 3 08 23 PM" src="https://user-images.githubusercontent.com/64725000/179463401-1847cdee-d3e4-47ef-a48f-1fa52234df15.png">
- | -  |
+| Middle Value  |   <img width="1371" alt="Screenshot 2022-07-18 at 3 16 50 PM" src="https://user-images.githubusercontent.com/64725000/179463331-c63fb077-4da0-4a53-aeff-7529245251fc.png"> |  <img width="328" alt="Screenshot 2022-07-18 at 3 08 12 PM" src="https://user-images.githubusercontent.com/64725000/179463058-1baa3226-0a78-4c69-9ddf-7f4049b4056c.png"> |
+| Boundary Value  |  <img width="330" alt="Screenshot 2022-07-18 at 3 08 23 PM" src="https://user-images.githubusercontent.com/64725000/179463401-1847cdee-d3e4-47ef-a48f-1fa52234df15.png"> | -  |
 | Reason  |   |   |
