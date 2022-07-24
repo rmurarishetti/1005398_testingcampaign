@@ -1,5 +1,3 @@
-package com.example.testingcampaign;
-
 
 import java.io.*;
 import java.util.ArrayList;
@@ -7,10 +5,10 @@ import java.util.ArrayList;
 public class Week8CSV {
     public static void main(String[] args) {
         try{
-        FileReader file1 = new FileReader("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
-        FileReader file2 = new FileReader("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_2.csv");
-        String path = "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/";
-        compareCSV(file1, file2, path);
+            FileReader file1 = new FileReader("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
+            FileReader file2 = new FileReader("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_2.csv");
+            String path = "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/";
+            compareCSV(file1, file2, path);
         }
         catch(Exception e){
             e.printStackTrace();
