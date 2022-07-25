@@ -10,7 +10,7 @@ You will also find the CSV files used to test the task 2 code in the same folder
 #### Getting Started:
 1. Clone this repository
 
-2. Navigate to the "./TestingCampaign/testingCampaign/src/main/java/com/example/testingcampaign/Week8CSV.java"
+2. Navigate to the "./TestingCampaignCode/src/Week8CSV.java"
 
 3. Edit these 3 lines of code in the main according to the location of your files and where you want the output to be saved:
 ```
