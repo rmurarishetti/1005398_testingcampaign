@@ -19,7 +19,7 @@ public class Week8CSV {
         }
     }
 
-    public static boolean compareCSV(File file1, File file2, String path) throws IOException {
+    public static boolean compareCSV(File file1, File file2, String path) throws Exception {
         FileReader file1_reader = new FileReader(file1);
         FileReader file2_reader = new FileReader(file2);
 
@@ -66,20 +66,18 @@ public class Week8CSV {
                 }
 
                 int file3Content_size = file3Content.size();
-                try {
-                    FileWriter fileWriter = new FileWriter(path + "outputComparison.csv");
 
-                    for (int i = 0; i < file3Content_size; i++) {
-                        fileWriter.append("" + file3Content.get(i));
-                        fileWriter.append("\n");
-                    }
-                    fileWriter.flush();
-                    fileWriter.close();
-                    System.out.println("Successfully Written");
 
-                } catch (Exception e) {
-                    e.printStackTrace();
+                FileWriter fileWriter = new FileWriter(path + "outputComparison.csv");
+
+                for (int i = 0; i < file3Content_size; i++) {
+                    fileWriter.append("" + file3Content.get(i));
+                    fileWriter.append("\n");
                 }
+                fileWriter.flush();
+                fileWriter.close();
+                System.out.println("Successfully Written");
+
 
             } else {
                 System.out.println("File Length Not Same");

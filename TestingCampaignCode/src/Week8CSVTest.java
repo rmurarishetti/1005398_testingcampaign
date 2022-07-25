@@ -35,11 +35,24 @@ public class Week8CSVTest {
         assertFalse(Week8CSV.compareCSV(file1,file2,path));
     }
 
+
+    //Non-existent File Path test
     @Test
     public void nonExistentPath(){
         File file1 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
         File file2 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_2.csv");
-        assertThrows(IOException.class,()->{Week8CSV.compareCSV(file1, file2, "/Users/userdoesntdoesntexist/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/");});
+        assertThrows(FileNotFoundException.class, ()->{Week8CSV.compareCSV(file1,file2,"Users/nonexistent/");});
     }
+
+    //If length of the 2 CSV files isn't same
+    @Test
+    public void lengthMismatch() throws Exception {
+        File file1 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
+        File file2 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/comparsiondata.csv");
+        String path = "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/";
+        assertFalse(Week8CSV.compareCSV(file1,file2,path));
+    }
+
+
 
 }
