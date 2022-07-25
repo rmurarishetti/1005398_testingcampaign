@@ -79,4 +79,8 @@ try{
 
 3. Verify the above mentioned boundary conditions and system tests as specified.
 
+4. For running the parameterized tests, navigate to "./TestingCampaignCode/src/ComparisonParameterizedTest.java" or "./TestingCampaignCode/src/ExtensionParameterizedTest.java"
+
+5. The former compares the function outputs with real outputs of files sample_file_1.csv and sample_file_2.csv, sample_file_1.csv and sample_file_3.csv. The latter checks the file extension of the input files.
+
 
