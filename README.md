@@ -70,3 +70,13 @@ try{
 | Middle Value  |  ".pdf" file extension | ".csv" file extension  |
 | Boundary Value  | ".xlsx" file extension |  ".csv" file extension |
 |  Reason | The .pdf file is vastly different from .csv type file and hence is a middle value  |  The .csv file can be extracted from a .xlsx file and parsed through, hence is a boundary invalid value |
+
+## Week 10
+
+1. For running the unit tests, open the repository in Intellij or Visual Studio Code.
+
+2. Navigate to "./TestingCampaignCode/src/Week8CSVTest.java"
+
+3. Verify the above mentioned boundary conditions and system tests as specified.
+
+
