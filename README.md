@@ -83,4 +83,15 @@ try{
 
 5. The former compares the function outputs with real outputs of files sample_file_1.csv and sample_file_2.csv, sample_file_1.csv and sample_file_3.csv. The latter checks the file extension of the input files.
 
+## Week 13
 
+The fuzzing file can be found in the "./TestingCampaignCode/src/FeedbackFuzzing.java"
+
+After fuzzing the input csvs and checking comparison for 10K iterations, the Week8CSVCompare.java hasn't failed.
+It has been tested for its robustness.
+
+For running the fuzzer, follow the steps below
+
+1. Navigate to "./TestingCampaignCode/src/FeedbackFuzzing.java"
+
+2. Run the main method in the file and observe the feedback in the terminal.
