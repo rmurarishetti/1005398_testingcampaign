@@ -64,11 +64,11 @@ public class FeedbackFuzzing {
 
         int flag = 0;
 
-        int FuzzingIterations = 10000; //running fuzzer integer times
+        int FuzzingIterations = 1000; //running fuzzer integer times
         for (int i= 0 ; i< FuzzingIterations; i++){
             System.out.println("\n\nIteration "+ i);
             int numberOfMutations = mutateCSV(file1, i);
-            int realMismatches = Week8CSV.getMismatches(mutatedInput, file2, "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/");
+            int realMismatches = Week8CSV.getMismatches(mutatedInput, file1, "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/");
             Week8CSV.compareCSV(mutatedInput, file2, "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/");
             if (numberOfMutations!=realMismatches){
                 flag=1;

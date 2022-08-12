@@ -9,8 +9,8 @@ import static java.lang.System.exit;
 public class Week8CSV {
     public static void main(String[] args) {
         try{
-            File file1 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
-            File file2 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_2.csv");
+            File file1 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_2.csv");
+            File file2 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/input.csv");
             String path = "/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/";
             compareCSV(file1, file2, path);
         }
@@ -69,7 +69,7 @@ public class Week8CSV {
                 int file3Content_size = file3Content.size();
 
 
-                FileWriter fileWriter = new FileWriter(path + "outputComparison.csv");
+                FileWriter fileWriter = new FileWriter(path + "fuzzedComparison2.csv");
 
                 for (int i = 0; i < file3Content_size; i++) {
                     fileWriter.append("" + file3Content.get(i));
