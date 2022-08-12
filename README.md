@@ -95,3 +95,6 @@ For running the fuzzer, follow the steps below
 1. Navigate to "./TestingCampaignCode/src/FeedbackFuzzing.java"
 
 2. Run the main method in the file and observe the feedback in the terminal.
+
+3. In Week 8 foler, you can see the mismatches from the fuzzedComparison1, it is the comparison between sample_file_1 and input_file_1.
+   You can also see the mismatches from the fuzzedComparison3, it is the comparison between sample_file_3 and input_file_3.
