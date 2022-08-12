@@ -15,7 +15,7 @@ public class FeedbackFuzzing {
     }
     public static int mutateCSV(File file, int errno) throws IOException {
 
-        File fileInput = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/input.csv");
+        File fileInput = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/input_file_1.csv");
         FileWriter fileWriter = new FileWriter(fileInput);
         fileWriter.append("\"Customer ID#\",\"Account No.\",\"Currency\",\"Type\",\"Balance\"\n");
 
@@ -58,9 +58,9 @@ public class FeedbackFuzzing {
 
 
     public static void mutationFuzzer() throws Exception{
-        File file1 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_3.csv");
-        File file2 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_3.csv");
-        File mutatedInput = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/input.csv");
+        File file1 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
+        File file2 = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/sample_file_1.csv");
+        File mutatedInput = new File("/Users/rmurarishetti/Documents/ISTD Term 4/1005398_testingcampaign/Week 8/input_file_1.csv");
 
         int flag = 0;
 
