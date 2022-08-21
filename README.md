@@ -98,3 +98,19 @@ For running the fuzzer, follow the steps below
 
 3. In Week 8 foler, you can see the mismatches from the fuzzedComparison1, it is the comparison between sample_file_1 and input_file_1.
    You can also see the mismatches from the fuzzedComparison3, it is the comparison between sample_file_3 and input_file_3.
+   
+## Week 14
+After fuzzing through the codes of my groupmates Acqquilla and Yogesh and fuzzing them, I have found that there is a bug in their comparison procedure.
+They do a row by row comparison as to checking through the whole of the file contents of both the CSV's. This was highlighted in my fuzzer output for their code where in the number of mutations doesn't match the number of mismatches in the file contents.
+
+###Fuzzer output on Yogesh's code
+<img width="564" alt="Screenshot 2022-08-21 at 4 49 32 PM" src="https://user-images.githubusercontent.com/64725000/185783349-e1c94040-b035-4b30-ad48-60dcd2132ede.png">
+###Fuzzer output on Acqquilaa's code
+<img width="536" alt="Screenshot 2022-08-21 at 5 02 14 PM" src="https://user-images.githubusercontent.com/64725000/185783789-49c760d8-baec-44fb-8f28-b249297c1526.png">
+
+This is the case with both Yogesh's and Acqquilaa's code.
+Since they do a row by row comparison, my mutation fuzzer output is not able to be compared properly by their comparison algorithms.
+
+The fuzzer for both their codes can be found in "./TestingCampaignCode/src/Yogesh" and "./TestingCampaignCode/src/Acqquilaa" path respectively.
+
+
