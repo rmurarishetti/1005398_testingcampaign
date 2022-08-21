@@ -105,6 +105,7 @@ They do a row by row comparison as to checking through the whole of the file con
 
 ### Fuzzer output on Yogesh's code
 <img width="564" alt="Screenshot 2022-08-21 at 4 49 32 PM" src="https://user-images.githubusercontent.com/64725000/185783349-e1c94040-b035-4b30-ad48-60dcd2132ede.png">
+
 ### Fuzzer output on Acqquilaa's code
 <img width="536" alt="Screenshot 2022-08-21 at 5 02 14 PM" src="https://user-images.githubusercontent.com/64725000/185783789-49c760d8-baec-44fb-8f28-b249297c1526.png">
 
